@@ -1,0 +1,8 @@
+4. Yêu cầu đầu ra
+- Bản phác thảo sơ đồ luồng IPO:
++ Input: Nhập dữ liệu thô trong thư mục Download
++ Process: Xử lý các thông tin đuôi file để thực thi các lệnh
++ Output: Kết quả sau khi máy tính xử lý thành công các tệp tài liệu hoặc thư mục rác
+- Danh sách câu lệnh kịch bản cho Robot: 
++ Process: Sau khi quét xong đuôi file Robot sẽ sử dụng lệnh “mv” để chuyển các file có đuôi tương ứng với thư mục như: media,... Ví dụ: mv poster.png,picture.jpg media; mv baitap1.py, baitap2.py scripts; rm bread.tmp 
++ Output: Kết quả sẽ được trả trên máy tính cá nhân 
