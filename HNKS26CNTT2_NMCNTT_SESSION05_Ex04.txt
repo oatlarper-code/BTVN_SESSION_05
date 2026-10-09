@@ -1,0 +1,23 @@
+Phần 1: Phân tích và đề xuất
+Bảng so sánh ưu điểm và nhược điểm của 2 cách viết đường dẫn dựa trên các tiêu chí:
+- Nhược điểm của đường dẫn tuyệt đối:
++ Tính di động: Dễ bị lỗi khi gửi sang máy khác do khác tên người dùng khác ổ đĩa hoặc vị trí thư mục
++ Độ dài câu lệnh: dài dòng, cố định theo cấu trúc thư mục của máy cá nhân
++ Tính an toàn: dễ làm lộ tên user và cấu trúc thư mục cá nhân trên máy; dễ bị gãy liên kết khi di chuyển dự án.
+- Ưu điểm của đường dẫn tuyệt đối:
++ Tính linh hoạt: Rõ ràng, không bao giờ nhầm lẫn
++ Độ dài câu lệnh: Dẫn tới địa chỉ chính xác
+- Ưu điểm của đường dẫn tương đối:
++ Tính di động: Chạy ổn định trên mọi máy, mọi ổ đĩa miễn là cấu trúc bên trong thư mục giữ nguyên. 
++ Độ dài câu lệnh: Ngắn gọn, chỉ thể hiện vị trí tương quan so với thư mục chứa file code. 
++ Tính an toàn: Bảo mật thông tin đường dẫn cá nhân, giúp code linh hoạt khi đưa lên GitHub hoặc môi trường Server.
+- Nhược điểm của đường dẫn tương đối:
++ Tính di động: Việc xác định đường dẫn có thể trở nên khó khăn và dễ gây ra lỗi nếu không cẩn thận. 
++ Độ dài câu lệnh: Dễ gây rối nếu cấu trúc thư mục của bạn phức tạp.
+Phần 2: Lựa chọn giải pháp & Giải thích 
+- Cách 2 là tối ưu nhất cho Nam
++ Giải pháp này giúp đáp ứng hoàn toàn quy tắc nghiệp vụ: Khi An gửi toàn bộ thư mục project cho bạn bè, chương trình vẫn tự tìm thấy file users.csv bất kể người nhận lưu thư mục ở ổ đĩa nào hay dưới tên user nào.
+2. Ý nghĩa của các ký hiệu “.” và “..”
+- Ký hiệu “.”: Đại diện cho thư mục hiện tại 
+- Ký hiệu “..”: Đại diện cho thư mục cha
+
