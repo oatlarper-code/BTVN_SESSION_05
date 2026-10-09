@@ -1,0 +1,4 @@
+4. Yêu cầu đầu ra 
++ Sử dụng lệnh “mkdir” để tạo thư mục drink_module. Ví dụ: ./home/OrderTech mkdir drink_module
++ Sử dụng lệnh “cd” để di chuyển thư mục vừa tạo. Ví dụ: ./home/Ordertech cd ./drink_module/
++ Sử dụng lệnh “ni” để tạo ra file rỗng. Ví dụ: ./home/Ordertech/drink_module ni coffee.txt, tea.txt
