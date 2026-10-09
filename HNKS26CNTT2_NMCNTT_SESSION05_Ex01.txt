@@ -1,0 +1,8 @@
+Phần 1: Phân tích
++ Lỗi sai thứ nhất của bạn Nam: Tên thư mục Smart Farm Project chưa có dấu ngoặc kép trong khoảng trắng
++ Lỗi sai thứ hai của bạn Nam: Khi chuyển thư mục tên thư mục Smart Farm Project chưa có dấu ngoặc kép trong khoảng trắng
+Phần 2: Hoàn thiện
++ Viết lại chuỗi câu lệnh PowerShell: 
++ mkdir “Smart Farm Project”
++ cd “Smart Farm Project”
++ mkdir src/sensors/temperature
